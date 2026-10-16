@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:facegate;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+app:
+  admin-username: admin
+  admin-password: TestPassword_2026!
+  face-url: http://localhost:8000
+  face-key: TestServiceKey_2026!
